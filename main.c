@@ -11,5 +11,7 @@ int main()
     printf("%.2f - %.2f = %.2f\n", a, b, resta(a, b));
     printf("%.2f x %.2f = %.2f\n", a, b, multiplicar(a, b));
     printf("%.2f / %.2f = %.2f\n", a, b, dividir(a, b));
+    printf("%.2f elevado a %.2f = %.2f\n", a, b, potencia(a, b));
+    printf("Raiz %.2f de %.2f = %.2f\n", b, a, raiz(a, b));
     return 0;
 }
